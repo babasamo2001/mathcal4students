@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html id="html-rec" lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mathematics Calculations</title>
+<link rel="stylesheet" href="./styles/style.css">
+<script src="https://kit.fontawesome.com/8a3393f95f.js" crossorigin="anonymous"></script>
+</head>
+<body>
+   
+    <form id="form-body" action="" method="post">
+        <h1 id="main-heading">Mathematics Calculations</h1>
+    <h2 id="sub-heading">Finding Area and Perimeter of a Rectangle</h2>
+   <div id=field>
+    <label id="lbl-len" for="input-len">Length:</label>
+    <input required placeholder="Length here" name="len" class="len" id="input-len" type="number">
+</div>
+<div id=field>
+    <label id="lbl-bre" for="input-bre">Breadth:</label>
+    <input required placeholder="Breadth here" name="bre" class="bre" id="input-bre" type="number">
+</div>
+<p><i>Note: All units are in cm.</i> </p>
+<div id="btn-container"><button id="btn-back">Back</button><button id="btn-result">Compute</button><button id="btn-reset" type="reset">Reset</button></div>
+<div id="alert-container" hidden><i id="alert-icon" class="fa-solid fa-face-smile"></i><p id="alert-text">Quite easily done!</p></div>
+<div id="result-container"><p id="result-text"> </p></div>
+
+</form>
+
+<script src="./js/rectangle.js"></script>
+</body>
+</html>

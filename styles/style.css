@@ -1,0 +1,125 @@
+#html-rec{
+    background-color:darkgrey;
+}
+#html-home{
+    background-color: dimgray;
+}
+#form-body{
+    background-color:skyblue;
+    height: fit-content;
+    width: 500px;
+    padding: 15px;
+    position: absolute;
+    top: 20%;
+    left:35%;
+    margin-top: -50px;
+    margin-left: -50px;
+    
+}
+#input-len,#input-bre{
+    
+    margin-bottom: 5px;
+    border: 10px;
+    padding: 2px;
+    max-width:90px;
+    font-size: small;
+    
+    border: 1px;
+    border-style: solid;
+}
+
+label{
+    width: 100px;
+    display: inline-block;
+    font-size: large;
+}
+
+
+#btn-container{
+    display: flexbox;
+    align-content: space-around;
+    width: fit-content;
+}
+
+#main-para{
+    font-size: 20px;
+    color: white;
+
+}
+#span,#main-link{
+    font-size: 20px;
+    color: skyblue;
+
+}
+#container{
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    margin-top: -50px;
+    margin-left: -50px;
+    width: 800px;
+    height: 400px;
+}
+
+.btn-next{
+    padding-top: 3px;
+    padding-left: 3px;
+        position: absolute;
+        top: 60%;
+        left: 50%;
+        margin-top: -50px;
+        margin-left: -50px;
+        width: 52px;
+        height: 30px;
+        cursor: pointer;
+        font-size: larger;
+}
+#home-html{
+    background-color:whitesmoke
+}
+#home-heading{
+    position: absolute;
+    top: 20%;
+    left: 37%;
+    color: white;
+}
+#pic-container{
+    width: 300px;
+    height: 100%em; 
+    padding: 0;
+    }
+img{
+    padding: 0px;
+    width: 400px;
+    height: 30%em;
+    margin-bottom: 5px;
+}
+button{
+    margin-right: 30px;
+    color: blue;
+    cursor: pointer;
+    font-size: 17px;
+ 
+}
+    #main-heading{
+        margin-top: 0px;
+        margin-left: 60px;
+    }
+    #footer{
+        display: flex;
+        align-content: space-around;
+        justify-content: center;
+        
+    }
+    #copyright{
+        font-size: small;
+    }
+    #alert-text{
+        display: inline-block;
+        color: blue;
+        font-size: medium;
+    }
+    #alert-icon{
+        font-size: xx-large;
+        margin-top: 30px;
+    }
